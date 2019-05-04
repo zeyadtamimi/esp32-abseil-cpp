@@ -13,7 +13,7 @@ file. If it does work, feel free to push it upstream.
 Simply add the repository to your ESP IDF Project's component directory:
 ```bash
     mkdir -p components && git submodule add <url> components/abseil_cpp_port &&
-    git submodule update --recursive
+    git submodule update --init --recursive
 ```
 
 ## Usage
